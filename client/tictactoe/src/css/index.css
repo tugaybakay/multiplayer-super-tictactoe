@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --color-customBackgroungColor: #09122C;
+  --color-textColor: #872341;
+  --color-gameBoardBackgroundColor: #BE3144;
+}
+
+.dialog-button {
+  @apply border rounded-md shadow-black shadow-md hover:shadow-none hover:translate-y-[2px] outline-none cursor-pointer
+}
+
+.dialog-input {
+  @apply border rounded-md px-3 py-1 mr-1 shadow-md shadow-black outline-none
+}
+
+.disabled-button {
+  @apply hover:opacity-80
+}
+
+.xox-button {
+  @apply bg-white flex justify-center items-center rounded-lg text-2xl text-customBackgroungColor font-bold hover:opacity-90 cursor-pointer
+}
+
+.disabled-xox-button {
+  @apply bg-white flex justify-center items-center rounded-lg text-2xl text-customBackgroungColor font-bold opacity-75
+}
+
